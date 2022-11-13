@@ -67,7 +67,7 @@ bot.start((ctx) => {
     for(i = 0; i <= ctx.message.text; i++ ) {
         (function(ind) {
             setTimeout( async function(){
-                if(counter == 10){
+                if(counter == 100){
                     ctx.replyWithHTML(`<b> Прошло ${counter} операций</b>`)
                     counter = 0;
                 }
