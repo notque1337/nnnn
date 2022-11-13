@@ -84,7 +84,7 @@ bot.start((ctx) => {
                     
                 counter++;
 
-            }, 4000 * ind);
+            }, 10000 * ind);
         })(i);
     }
 
